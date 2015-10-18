@@ -1,0 +1,10 @@
+--- sbsms-app-0.0.0/src/Makefile.am.orig	2011-08-16 09:14:59.000000000 +0200
++++ sbsms-app-0.0.0/src/Makefile.am	2015-10-18 10:16:00.992656566 +0200
+@@ -2,6 +2,7 @@
+ 
+ lib_LTLIBRARIES = libsbsmsx.la
+ 
++libsbsms_la_LIBADD = @SBSMS_LIBS@
+ libsbsmsx_la_SOURCES = mp3.cpp mp3.h mp3tech.cpp mp3tech.h import.cpp import.h pcm.cpp pcm.h convert.cpp convert.h audiobuffer.cpp audiobuffer.h
+ 
+ bin_PROGRAMS = sbsms
