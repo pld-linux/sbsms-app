@@ -2,7 +2,7 @@ Summary:	Program for high quality time stretching and pitch scaling
 Summary(pl.UTF-8):	Program do wysokiej jakości zmiany szybkości i wysokości dźwięku
 Name:		sbsms-app
 Version:	0.0.0
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/sbsms/%{name}-%{version}.tar.gz
